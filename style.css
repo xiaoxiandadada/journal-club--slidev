@@ -1,0 +1,39 @@
+h2 {
+  @apply mb-6;
+}
+
+h3 {
+  @apply my-2 !text-xl;
+}
+
+h2,
+h3 {
+  background-color: #2b90b6;
+  background-image: linear-gradient(45deg, #4ec5d4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/* li li {
+  @apply text-sm;
+} */
+
+li li p {
+  @apply !my-2;
+}
+
+.slidev-layout {
+  @apply p-10;
+}
+
+.slidev-layout li,
+.slidev-layout p {
+  @apply !leading-[1.5];
+}
+
+.katex {
+  @apply !text-[1.1em];
+}
